@@ -1,0 +1,28 @@
+name: Add custom number to existing issues
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # De actie draait dagelijks om middernacht
+
+jobs:
+  add_custom_number_to_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get all issues
+        run: |
+          echo "Fetching all open issues"
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues?state=open" > issues.json
+
+      - name: Add custom number to issues
+        run: |
+          custom_number=1
+          for issue in $(jq -r '.[].number' issues.json); do
+            echo "Adding custom number $custom_number to issue $issue"
+            curl -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -d '{"body": "This issue has been assigned a custom number: '$custom_number'."}' \
+              "https://api.github.com/repos/${{ github.repository }}/issues/$issue/comments"
+            custom_number=$((custom_number + 1))
+          done
