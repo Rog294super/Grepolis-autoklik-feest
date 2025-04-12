@@ -22,7 +22,7 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
 ## Installatie
 
 ### Voor Windows:
-1. Download de `autoklik.exe` van de [release-pagina](link naar release).
+1. Download de `autoklik.exe` van de [release-pagina](https://github.com/Rog294super/Grepolis-autoklik-feest/releases/latest).
 2. Zet het bestand in een map op je computer.
 3. Dubbelklik op `autoklik.exe` om het programma te starten.
 
