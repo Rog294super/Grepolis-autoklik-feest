@@ -22,8 +22,8 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
 ## Installatie
 
 ### Voor Windows:
-1. Download de `source code(zip)` of `source code(tar.gz)` (7zip of winrar needed) van de [release-pagina](https://github.com/Rog294super/Grepolis-autoklik-feest/releases/latest).
-2. Zet het bestand in een map op je computer.
+1. Download de`Autoklik.exe` of `source code(zip)` of `source code(tar.gz)` (7zip of winrar needed) van de [release-pagina](https://github.com/Rog294super/Grepolis-autoklik-feest/releases/latest).
+2. Zet het bestand in een map op je computer. Indien nog niet gedaan pak het zip bestand uit.
 3. Dubbelklik op `autoklik.exe` om het programma te starten.
 
 ## Gebruiksaanwijzing
@@ -39,7 +39,7 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
 
 3. **Gebruik sneltoetsen** om acties te starten, stoppen en te configureren.
    Het programma gaat van lage positie naar hoog, Plaats bij stadsfeest positie 1 op stadsfeest knop en positie 2 op volgende stad knop.
-   Voor zegetocht klik positie 1 op zegetocht knop en positie 3 op volgende stad knop.
+   Voor zegetocht plaats positie 1 op zegetocht knop en positie 3 op volgende stad knop.
 
 ### Toetsencombinaties:
 - **Positie 1 en Positie 2 voor stadsfeest**: `ctrl+shift+1` & `ctrl+shift+2`
