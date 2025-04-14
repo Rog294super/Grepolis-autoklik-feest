@@ -38,8 +38,13 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
    - Optie 5: Sluit het programma.
 
 3. **Gebruik sneltoetsen** om acties te starten, stoppen en te configureren.
+   Het programma gaat van lage positie naar hoog, Plaats bij stadsfeest positie 1 op stadsfeest knop en positie 2 op volgende stad knop.
+   Voor zegetocht klik positie 1 op zegetocht knop en positie 3 op volgende stad knop.
 
 ### Toetsencombinaties:
+- **Positie 1 en Positie 2 voor stadsfeest**: `ctrl+shift+1` & `ctrl+shift+2`
+- **Positie 1 en 3 voor zegetocht**: `ctrl+shift+1` & `ctrl+shift+3`
+- **Positie 1, 2 en 3 voor Stadsfeest en zegetocht**: `ctrl+shift+1` & `ctrl+shift+2` & `ctrl+shift+3`
 - **Start klikken**: `ctrl+shift+f`
 - **Stop klikken**: `ctrl+shift+v`
 
