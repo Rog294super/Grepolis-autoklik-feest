@@ -11,7 +11,7 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
   - Positie 2: `ctrl+shift+2`
   - Positie 3: `ctrl+shift+3`
   - Stadsfeest: `ctrl+shift+l`
-  - Zegetocht: `ctrl+shift+z`
+  - Zegetocht: `ctrl+shift+b`
   - Stadsfeest en Zegetocht: `ctrl+shift+x`
   - Starten: `ctrl+shift+f`
   - Stoppen: `ctrl+shift+v`
