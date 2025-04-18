@@ -64,3 +64,17 @@ Dit project is gelicentieerd onder de MIT-licentie - zie het [LICENSE](LICENSE) 
 
 Voor vragen of ondersteuning, neem contact op via [rog294super@gmail.com or discord].
 
+## 📜 Disclaimer
+
+Dit programma is ontworpen voor gebruik met Grepolis, een videogame ontwikkeld door InnoGames. Houd er echter rekening mee dat dit autoklik-programma niet is goedgekeurd of ondersteund door InnoGames, en het gebruik ervan mogelijk in strijd is met de servicevoorwaarden van het spel.
+
+Wij moedigen het gebruik van dit programma niet aan om een oneerlijk voordeel te behalen of om de spelregels te schenden.
+
+Het gebruik van dit programma is volledig op eigen risico. Wij aanvaarden geen enkele aansprakelijkheid voor gevolgen die voortvloeien uit het gebruik ervan. Door dit programma te gebruiken, erken en accepteer je dat InnoGames actie kan ondernemen tegen je account wegens schending van hun voorwaarden.
+
+Wij zijn niet verantwoordelijk voor eventuele problemen die ontstaan bij gebruik van dit programma. Als het per ongeluk op een verkeerde knop klikt, dan is dat jouw eigen verantwoordelijkheid.
+
+Door dit programma te gebruiken:
+- accepteer je deze voorwaarden,
+- gebruik je het op een verantwoorde manier,
+- en handel je in overeenstemming met de toepasselijke wet- en regelgeving.
