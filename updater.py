@@ -2,8 +2,9 @@ import requests
 import os
 import subprocess
 import time
+import sys
 
-GITHUB_API = "https://api.github.com/repos/rog294super/Grepolis-autoklik-feest/releases/latest"  # Vervang met je eigen repo
+GITHUB_API = "https://api.github.com/repos/rog294super/Grepolis-autoklik-feest/releases/latest"
 EXE_NAME = "Autoklik.exe"
 
 def get_local_version():
@@ -36,7 +37,7 @@ def download_and_replace(url):
 def restart():
     subprocess.Popen([EXE_NAME])
     time.sleep(1)
-    exit()
+    sys.exit()
 
 # Uitvoering
 tag, download_url = get_latest_version_info()

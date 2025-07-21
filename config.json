@@ -14,7 +14,7 @@
     "boerendorpen": {
         "aantal": 6,
         "locaties": [],
-        "loyaliteit_onderzocht": true,
+        "loyaliteit_onderzocht": false,
         "wachttijd": "10m"
     }
 }
