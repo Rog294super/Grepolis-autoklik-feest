@@ -13,6 +13,7 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
   - Stadsfeest: `ctrl+shift+l`
   - Zegetocht: `ctrl+shift+b`
   - Stadsfeest en Zegetocht: `ctrl+shift+x`
+  - Boerendorp: `ctrl+shift+u`
   - Starten: `ctrl+shift+f`
   - Stoppen: `ctrl+shift+v`
 
@@ -22,8 +23,8 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
 ## Installatie
 
 ### Voor Windows:
-1. Download de`Autoklik.exe` of `source code(zip)` of `source code(tar.gz)` (7zip of winrar needed) van de [release-pagina](https://github.com/Rog294super/Grepolis-autoklik-feest/releases/latest).
-2. Zet het bestand in een map op je computer. Indien nog niet gedaan pak het zip bestand uit.
+1. Download de `autoklik.exe` van de [release-pagina](https://github.com/Rog294super/Grepolis-autoklik-feest/releases/latest).
+2. Zet het bestand in een map op je computer.
 3. Dubbelklik op `autoklik.exe` om het programma te starten.
 
 ## Gebruiksaanwijzing
@@ -32,14 +33,18 @@ AutoKlik is een programma waarmee je automatisch muisklikken kunt uitvoeren in d
 1. **Start het programma** door op `autoklik.exe` te dubbelklikken.
 2. **Kies een optie** uit het hoofdmenu:
    - Optie 1: Kies je toetsencombinaties.
-   - Optie 2: Start automatisch klikken.
-   - Optie 3: Stop het automatisch klikken.
+   - Optie 2: Start automatisch klikken. (Advies niet gebruiken, Zie sneltoetsen)
+   - Optie 3: Stop het automatisch klikken. (Advies niet gebruiken, Zie sneltoetsen)
    - Optie 4: Stel snelheid in (huidig: 0.3 sec)
-   - Optie 5: Sluit het programma.
+   - Optie 5: Start boerendorpen verzamelen (Advies niet gebruiken, Zie sneltoetsen)
+   - Optie 6: Zet loyaliteit aan/uit (Huidige: Nee (Default))
+   - Optie 7: Aantal boerendorpen veranderen 1 t/m 6 (Huidige: 6 (Default))
+   - Optie 8: Controleer op updates.
+   - Optie 9: Sluit het programma.
 
 3. **Gebruik sneltoetsen** om acties te starten, stoppen en te configureren.
    Het programma gaat van lage positie naar hoog, Plaats bij stadsfeest positie 1 op stadsfeest knop en positie 2 op volgende stad knop.
-   Voor zegetocht plaats positie 1 op zegetocht knop en positie 3 op volgende stad knop.
+   Voor zegetocht klik positie 1 op zegetocht knop en positie 3 op volgende stad knop.
 
 ### Toetsencombinaties:
 - **Positie 1 en Positie 2 voor stadsfeest**: `ctrl+shift+1` & `ctrl+shift+2`
@@ -64,17 +69,3 @@ Dit project is gelicentieerd onder de MIT-licentie - zie het [LICENSE](LICENSE) 
 
 Voor vragen of ondersteuning, neem contact op via [rog294super@gmail.com or discord].
 
-## 📜 Disclaimer
-
-Dit programma is ontworpen voor gebruik met Grepolis, een videogame ontwikkeld door InnoGames. Houd er echter rekening mee dat dit autoklik-programma niet is goedgekeurd of ondersteund door InnoGames, en het gebruik ervan mogelijk in strijd is met de servicevoorwaarden van het spel.
-
-Wij moedigen het gebruik van dit programma niet aan om een oneerlijk voordeel te behalen of om de spelregels te schenden.
-
-Het gebruik van dit programma is volledig op eigen risico. Wij aanvaarden geen enkele aansprakelijkheid voor gevolgen die voortvloeien uit het gebruik ervan. Door dit programma te gebruiken, erken en accepteer je dat InnoGames actie kan ondernemen tegen je account wegens schending van hun voorwaarden.
-
-Wij zijn niet verantwoordelijk voor eventuele problemen die ontstaan bij gebruik van dit programma. Als het per ongeluk op een verkeerde knop klikt, dan is dat jouw eigen verantwoordelijkheid.
-
-Door dit programma te gebruiken:
-- accepteer je deze voorwaarden,
-- gebruik je het op een verantwoorde manier,
-- en handel je in overeenstemming met de toepasselijke wet- en regelgeving.
