@@ -4,7 +4,7 @@
 
 ### Optie 1: Online Installer (Aanbevolen - Klein bestand)
 
-1. Download `Autoklik_Installer.exe` (3-5 MB)
+1. Download `Autoklik_Installer.exe` (16-20 MB)
 2. Dubbelklik om te starten
 3. Kies installatielocatie
 4. Klik "Installeren"
@@ -13,11 +13,10 @@
 
 ### Optie 2: Volledige Download
 
-1. Download `Autoklik.exe` van GitHub Releases
-2. Maak een map aan (bijv. `C:\Autoklik`)
-3. Plaats `Autoklik.exe` in de map
-4. Dubbelklik om te starten
-5. Config wordt automatisch aangemaakt
+1. Download `Autoklik.zip` van GitHub Releases.
+2. Pak de .zip uit naar de locatie naar keuze.
+3. Dubbelklik op `Autoklik.exe` om te starten
+4. Config wordt automatisch aangemaakt
 
 ## 🔄 Updates
 
@@ -25,7 +24,7 @@
 1. Open Autoklik
 2. Ga naar "⚙️ Instellingen" tab
 3. Klik "🔄 Controleer op Updates"
-4. Bij nieuwe versie: klik "✅ Update Nu"
+4. Bij nieuwe versie (zie logs): klik "✅ Update Nu"
 5. Programma sluit af en updater neemt over
 6. Nieuwe versie start automatisch
 
@@ -47,18 +46,29 @@ De updater heeft meer tijd nodig. Dit is nu opgelost in v1.25.1 met:
 - 5 pogingen voor bestand vervangen
 
 ### Oplossing 2: Handmatig Updaten
-1. Sluit Autoklik **VOLLEDIG** (check Task Manager)
-2. Wacht 10 seconden
-3. Download nieuwe versie handmatig
-4. Vervang bestand
-5. Start
+1. Sluit Autoklik **VOLLEDIG** (check Task Manager).
+2. Wacht 10 seconden.
+3. Download nieuwe versie handmatig door downloaden van .zip
+4. Vervang bestanden met bestanden van .zip. Vervang config.json niet.
+5. Start.
 
 ### Oplossing 3: Schone Installatie
-1. Backup je `config.json`
-2. Verwijder oude Autoklik map
-3. Download installer opnieuw
-4. Installeer opnieuw
-5. Plaats `config.json` terug
+1. Backup je `config.json` en andere .json in hoofdfolder.
+2. Verwijder oude Autoklik map.
+3. Download installer opnieuw.
+4. Installeer opnieuw.
+5. Plaats `config.json` en de andere .json bestanden terug.
+
+## 🔧 Voor Ontwikkelaars
+## 📦 Bestandsstructuur
+
+### Minimale Installatie
+```
+Autoklik/
+├── Autoklik.exe        # Hoofdprogramma
+├── config.json         # Instellingen
+└── updater.exe         # Auto-update
+```
 
 ## 💡 Aanbeveling
 
@@ -72,5 +82,5 @@ De updater heeft meer tijd nodig. Dit is nu opgelost in v1.25.1 met:
 ---
 
 **Auteur:** Rog294super  
-**Versie:** 1.25.1  
-**Datum:** 2025-12-15
+**Versie:** 1.25.2  
+**Datum:** 2026-04-18
