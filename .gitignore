@@ -1,0 +1,31 @@
+# Exclude /Build if exist
+/build/
+/build
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Docker volumes
+db-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+**/test_*
+**/*_test.py
